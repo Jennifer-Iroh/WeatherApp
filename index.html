@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jenny's Weather App</title>
+
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">Welcome to Jennifer's Temperature Website</h1>
+        
+        <!--User Input section-->
+        <form class="change-location my-4 text-center text-muted">
+          <label for="city">Enter a location for the weather conditions and information <br>
+            Tip: Lightbackgrounds mean it is daytime, while darkbackgrounds mean it is night time.
+          </label>
+          <input type="text" name="city" class="form-control p-4">
+        </form>
+        
+        <!--Images to display corresponding time of day-->
+        <div class="card shadow-lg rounded d-none">
+          <img src="55ff4c98-0b34-41fd-b7bc-b5ccf42134a3.jpg" class="time card-img-top">
+          <div class="icon bg-light mx-auto text-center">
+            <img src="" alt="">     
+          </div>
+
+          <!--Weather output section-->
+          <div class="text-muted text-uppercase text-center details">
+            <h5 class="my-3">City name</h5>
+            <div class="my-3">Weather condition</div>
+            <div class="display-4 my-4">
+              <span>temp</span>
+              <span>&deg;C</span>
+            </div>
+          </div>
+        </div>
+
+        <footer class="text-center">
+          <div class="text-center">
+              <p>Designed by Iroh Jennifer for <a  href="https://pearlsafrica.org/" class="pearls">Pearls Africa</a></p>
+          </div> 
+          <div> 
+          <a href="https://www.linkedin.com/in/jennifer-iroh-68a179185/" class="fa fa-linkedin"></a>
+          <a href="https://twitter.com/I_caligrapher" class="fa fa-twitter"></a>
+          <a href="https://github.com/Iroh-Jennifer" class="fa fa-github"></a>
+          </div>
+
+      </footer>
+        
+      </div> 
+      
+  
+  <script src="scripts/weather.js"></script>
+  <script src="scripts/apps.js"></script>
+</body>
+</html>

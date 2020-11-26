@@ -1,0 +1,45 @@
+body{
+    background: black;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+  }
+  .container{
+    max-width: 600px;
+}
+
+.icon{
+  position: relative;
+  top: -70px;
+  border-radius: 100%;
+  width: 120px;
+  margin-bottom: -70px;
+}
+
+footer{
+  color: ghostwhite;
+}
+
+.fa {
+  padding: 40px;
+  font-size: 50px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: red;
+  text-decoration: none;
+}
+
+.pearls{
+  color:grey;
+  text-decoration: none;
+}
+
+.pearls:hover{
+  color: red;
+  text-decoration: none;
+}
